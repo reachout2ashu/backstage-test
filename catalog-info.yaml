@@ -5,6 +5,7 @@ metadata:
   tags:
     - spring-boot
     - java
+    - microservices
   links:
     - title: Website
       url: https://www.thoughtworks.com/
