@@ -2,10 +2,17 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-test
+  links:
+    - title: Website
+      url: https://www.thoughtworks.com/
+    - title: Documentation
+      url: https://www.thoughtworks.com/open-source
+    - title: Storybook
+      url: https://www.thoughtworks.com/insights/blogs
   annotations:
     github.com/project-slug: reachout2ashu/backstage-test
   namespace: default
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: dev
   owner: Group:default/backstage
