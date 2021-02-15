@@ -2,6 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-test
+  tags:
+    - spring-boot
+    - java
   links:
     - title: Website
       url: https://www.thoughtworks.com/
