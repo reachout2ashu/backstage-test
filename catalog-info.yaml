@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test
+  annotations:
+    github.com/project-slug: reachout2ashu/backstage-test
+  namespace: default
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Group:default/backstage
