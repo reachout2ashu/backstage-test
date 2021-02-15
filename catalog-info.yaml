@@ -20,5 +20,3 @@ spec:
   type: service
   lifecycle: dev
   owner: Group:default/backstage
-  providesApis:
-    - http://localhost:8080/swagger-ui/
